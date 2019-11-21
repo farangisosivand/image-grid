@@ -25,8 +25,9 @@ img {
     display: block;
   }
 
-  .dinos {
+  section {
     display: flex;
+    flex-wrap: wrap;
   }
 
   .photo {
@@ -38,7 +39,15 @@ img {
     width: 50%;
   }
 
-  .photo:nth-last-child(3) {
+  .photo:nth-child(3) {
+    width: 50%;
+  }
+
+  .photo:nth-child(4) {
+    width: 50%;
+  }
+
+  .photo:nth-child(5) {
     width: 50%;
   }
 
