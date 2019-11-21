@@ -21,6 +21,27 @@ img {
 
 @media only screen and (min-width: 25em) {
 
+  .photo:nth-child(2) {
+    display: block;
+  }
+
+  .dinos {
+    display: flex;
+  }
+
+  .photo {
+    display: block;
+    width: 100%;
+  }
+
+  .photo:nth-child(2) {
+    width: 50%;
+  }
+
+  .photo:nth-last-child(3) {
+    width: 50%;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
